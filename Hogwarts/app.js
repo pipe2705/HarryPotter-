@@ -28,3 +28,37 @@ otherH4.innerHTML = "Holly Wand with Unicorn Hair Core"
 container.append(otherH4)
 
 
+
+
+
+
+
+let trunkList = document.createElement("ul")
+trunkList.setAttribute("storage","trunk")
+trunkList.innerHTML = "trunk"
+container.append(trunkList)
+
+
+let butterBeer = document.createElement("li")
+butterBeer.innerText = "Butter Beer"
+butterBeer.classList.add("secret")
+butterBeer.append(trunkList)
+
+let invisibleCloak = document.createElement("li")
+invisibleCloak.innerHTML = "Cloak"
+invisibleCloak.classList.add("secret")
+trunkList.appendChild(invisibleCloak)
+
+let timeTurner = document.createElement("li")
+timeTurner.innerHTML = "Time Turner"
+timeTurner.classList.add("secret")
+
+let leash = document.createElement("li")
+leash.classList.add("cat")
+leash.innerHTML= "Leash" 
+
+let beans = document.createElement("li")
+beans.innerText = "Bertie Bott's Every Flavor [Jelly] Beans"
+
+
+
